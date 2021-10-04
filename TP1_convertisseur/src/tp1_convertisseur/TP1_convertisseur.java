@@ -38,11 +38,11 @@ public class TP1_convertisseur {
                 break;
             case 2://KelvinVersCelcius
                 result = (double) KelvinVersCelcius(nb1);
-                System.out.println("La température en Kelvin est : " + result);
+                System.out.println("La température en Celcius est : " + result);
                 break;
             case 3://FarenheitVersCelcius
                 result = FarenheitVersCelcius(nb1);
-                System.out.println("La température en Kelvin est : " + result);
+                System.out.println("La température en Celcius est : " + result);
                 break;
             case 4://CelciusVersFarenheit
                 result = CelciusVersFarenheit(nb1);
